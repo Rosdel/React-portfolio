@@ -5,7 +5,7 @@ class App extends Component {
   toggleDisplayBio = () => {
     this.setState({ displayBio: !this.state.displayBio })
   }
-  render = () => {
+  render() {
     return (
       <div>
         <h1>Yeah Man!</h1>
