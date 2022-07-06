@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Projects from "./Projects"
 class App extends Component {
   state = { displayBio: false }
 
@@ -26,7 +27,8 @@ class App extends Component {
             <button onClick={this.toggleDisplayBio}>Read More</button>
           </div>
         )}
-        {/* {bio} */}
+        <hr />
+        <Projects />
       </div>
     )
   }
