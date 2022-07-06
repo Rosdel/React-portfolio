@@ -20,7 +20,7 @@ const PROJECTS = [
   },
   {
     id: 3,
-    title: "LET'S PLAY PIGGame",
+    title: "LET'S PLAY PIG-Game",
     description: "complete PigGame with js",
     link: "https://github.com/Rosdel/PigGame",
     image: project3,
