@@ -13,15 +13,17 @@ class App extends Component {
     return (
       <div>
         <img src={profile} alt="profile-image" className="profile" />
-        <h1>Yeah Man!</h1>
-        <p>Call me Rosdell,& I am a software Developer</p>
-        <p>I am always looking forward to working on a meaningful project.</p>
+        <h1>Yeah frnd!!!</h1>
+        <p>
+          Hey, I'm <b>Rosdell Denish</b>, a passionate software Developer
+        </p>
+        <p>I'm always looking forward to working on a meaningful project.</p>
         {this.state.displayBio ? (
           <div>
             <p>I am currently based in Kampala ,and I code everyday.</p>
             <p>
-              my favorite language is JavaScript and I think React.js made it
-              more fun.
+              my favorite language is JavaScript and I think React.js just made
+              it more fun.
             </p>
             <p>Besides coding I also do Ziki and Basketball</p>
             <button onClick={this.toggleDisplayBio}>Show Less</button>

@@ -22,7 +22,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <h2>Highlighted Projects</h2>
+        <h2>Some Highligted Projects</h2>
         <div>
           {PROJECTS.map((PROJECT) => {
             return <Project key={PROJECT.id} project={PROJECT} />
