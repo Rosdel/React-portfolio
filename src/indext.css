@@ -3,3 +3,8 @@ body {
   font-size: 20px;
   padding: 2.5;
 }
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
