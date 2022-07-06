@@ -8,7 +8,7 @@ const PROJECTS = [
     title: "Example React Application",
     description:
       "A React App that I built using Core Js and Core Web dev Concepts!",
-    link: "https://github.com/Rosdel/React-portfolio",
+    link: "https://react-portfolio-rosdell.vercel.app/",
     image: project1,
   },
   {
@@ -22,7 +22,7 @@ const PROJECTS = [
     id: 3,
     title: "LET'S PLAY PIG-Game",
     description: "complete PigGame with js",
-    link: "https://github.com/Rosdel/PigGame",
+    link: "https://rosdell-pig-game.vercel.app/",
     image: project3,
   },
 ]
